@@ -6,10 +6,13 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // Of course you can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
+    siteTitle: `OsaiFu Inc.公式ウェブサイト`,
     siteTitleAlt: `OsaiFu Inc.公式ウェブサイト`,
+    siteHeadline: `OsaiFu Inc.公式ウェブサイト`,
+    siteUrl: `https://osai-fu.co.jp`,
+    siteDescription: `Since 2020.12. 多重否決の会をはじめさまざまなプロダクトを生み出しております。`,
+    siteLanguage: `ja`,
+    author: `@lekoarts_de`,
   },
   plugins: [
     {
@@ -21,8 +24,8 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        short_name: `OsaiFu`,
+        description: `Since 2020.12. 多重否決の会をはじめさまざまなプロダクトを生み出しております。`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
