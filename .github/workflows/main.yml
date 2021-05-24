@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@main                   
       - name: Clean install dependencies and build
         run: |
-          npm ci
+          npm i
           npm run build
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@2.0.0   
