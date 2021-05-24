@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@main                   
       - name: Clean install dependencies and build
-      - run: |
+        run: |
           npm ci
           npm run build
       - name: FTP-Deploy-Action
