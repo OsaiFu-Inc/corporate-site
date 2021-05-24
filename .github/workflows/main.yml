@@ -1,7 +1,7 @@
 on:
   push:                 
     branches:           
-      - master    
+      - ma    
 name: Build and Deploy  
 jobs:
   FTP-Deploy-Action:
