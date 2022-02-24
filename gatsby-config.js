@@ -6,13 +6,13 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `OsaiFu Inc.公式ウェブサイト`,
-    siteTitleAlt: `OsaiFu Inc.公式ウェブサイト`,
-    siteHeadline: `OsaiFu Inc.公式ウェブサイト`,
+    siteTitle: `OsaiFu Inc.`,
+    siteTitleAlt: `OsaiFu Inc. Corporate Site`,
+    siteHeadline: `OsaiFu Inc. Corporate Site`,
     siteUrl: `https://osai-fu.co.jp`,
-    siteDescription: `Since 2020.12. 多重否決の会をはじめさまざまなプロダクトを生み出しております。`,
+    siteDescription: `Since 2020.12. OsaiFu Inc.のコーポレートサイトです`,
     siteLanguage: `ja`,
-    author: `@lekoarts_de`,
+    author: `OsaiFu Inc.`,
   },
   plugins: [
     {
@@ -25,7 +25,7 @@ module.exports = {
       options: {
         name: `Cara - @lekoarts/gatsby-theme-cara`,
         short_name: `OsaiFu`,
-        description: `Since 2020.12. 多重否決の会をはじめさまざまなプロダクトを生み出しております。`,
+        description: `Since 2020.12. OsaiFu Inc.のコーポレートサイトです`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
