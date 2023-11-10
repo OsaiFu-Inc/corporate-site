@@ -57,6 +57,6 @@ module.exports = {
     },
   ].filter(Boolean),
 
-  pathPrefix: `/corporate-site`
+  pathPrefix: `/corporate-site`,
 
 }
