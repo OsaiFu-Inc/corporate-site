@@ -29,7 +29,5 @@
   "devDependencies": {
     "cross-env": "^7.0.2"
   }
-  "scripts": {
-    "build": "gatsby build --prefix-paths",
-  }
+
 }
