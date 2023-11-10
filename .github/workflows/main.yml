@@ -20,5 +20,5 @@ jobs:
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }} 
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }} 
           LOCAL_DIR: ./public/
-          REMOTE_DIR: "/home/osai-fu/www/osai-fu_hp"
+          REMOTE_DIR: "/home/kyo1c-rakuhoku2/www/osai-fu_hp"
 
